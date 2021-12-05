@@ -1,3 +1,7 @@
+This is fork from [gpakosz/.tmux][gpakosztmux].
+
+[gpakosztmux]: https://github.com/gpakosz/.tmux
+
 .tmux
 =====
 
@@ -32,7 +36,7 @@ your home directory:
 ```
 $ git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
 $ ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
-$ cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
+$ ln -s -f /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
